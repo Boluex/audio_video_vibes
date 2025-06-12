@@ -1,0 +1,5 @@
+# Activate your virtual environment first
+cd ~/kube_proj/
+source myenv/bin/activate
+
+pip install fastapi uvicorn pydantic moviepy==1.0.3 yt-dlp Pillow numpy
